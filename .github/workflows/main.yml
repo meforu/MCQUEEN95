@@ -39,7 +39,7 @@ Desktop"
 Server\WinStations\RDP-Tcp' -name "UserAuthentication" -
 Value 1
 
-- run: Set-LocalUser -Name "MATEEN" -Password
+- run: Set-LocalUser -Name "runneradmin" -Password
 (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
 - name: Create Tunnel
 
